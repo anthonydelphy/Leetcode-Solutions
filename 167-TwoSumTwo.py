@@ -1,6 +1,10 @@
 # Time Complexity: O(n)
-
- # Since the given array is sorted already, we can simply use two pointers to solve the problem in O(n). The reason that we do not sort the problem in Two Sum I is because the time complexity of sorting in the best case scenario is O(n log n). The solution that we have for Two Sum I has a time complexity of O(n), so sorting it will slow it down.
+ # Since the given array is sorted already, 
+ # #we can simply use two pointers to solve the problem in O(n). 
+ # The reason that we do not sort the problem in Two Sum I is 
+ # because the time complexity of sorting in the best case scenario is O(n log n). 
+ # The solution that we have for Two Sum I has a time complexity of O(n), 
+ # so sorting it will slow it down.
 
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:        
